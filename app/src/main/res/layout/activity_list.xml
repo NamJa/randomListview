@@ -1,0 +1,39 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:dividerHeight="1.6dp"
+        android:divider="#009688"
+        android:layout_height="440dp">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="보냄"
+        android:gravity="bottom"
+        android:layout_toRightOf="@id/edit1"
+        android:layout_alignParentBottom="true"
+        android:onClick="Click"/>
+    <Button
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:text="clear"
+        android:layout_toRightOf="@id/button1"
+        android:layout_alignParentBottom="true"
+        android:onClick="clear"
+        />
+
+
+</RelativeLayout>
